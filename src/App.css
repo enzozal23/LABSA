@@ -22,6 +22,7 @@ body {
   width: auto;
   font-family: Bebas Neue, sans-serif;
 }
+
 .navbar-css {
   border-bottom: solid 0.1rem rgba(255, 255, 255, 0.364);
   position: fixed;
@@ -29,9 +30,9 @@ body {
   width: 100%;
   z-index: 100;
   background-color: transparent !important;
-  animation: enhance-navbar linear both;
-  animation-timeline: scroll(root block);
-  animation-range: 0 20px;
+  animation: enhance-navbar linear both !important;
+  animation-timeline: scroll(root block) !important;
+  animation-range: 0 20px !important;
 }
 
 @keyframes enhance-navbar {
@@ -47,14 +48,14 @@ body {
   margin-right: 550px;
   width: 120px;
   height: 120px;
-  animation: enhance-logo linear both;
-  animation-timeline: scroll(root block);
-  animation-range: 0 20px;
+  animation: enhance-logo linear both !important;
+  animation-timeline: scroll(root block) !important;
+  animation-range: 0 20px !important;
 }
 @keyframes enhance-logo {
   to {
-    width: 121px;
-    height: 121px;
+    width: 125px;
+    height: 125px;
   }
 }
 
@@ -74,9 +75,9 @@ body {
   color: var(--colorNavBar);
 
   font-size: 35px;
-  animation: enhance-lyrics linear both;
-  animation-timeline: scroll(root block);
-  animation-range: 0 20px;
+  animation: enhance-lyrics linear both !important;
+  animation-timeline: scroll(root block) !important;
+  animation-range: 0 20px !important;
 }
 .nav-items a:hover {
   color: aliceblue;
