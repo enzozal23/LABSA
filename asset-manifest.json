@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LABSA/static/css/main.b652ace5.css",
+    "main.css": "/LABSA/static/css/main.01a1221d.css",
     "main.js": "/LABSA/static/js/main.a1bf3ae0.js",
     "static/media/nosotros1.png": "/LABSA/static/media/nosotros1.0f9177105031adea7c8a.png",
     "static/media/main1.png": "/LABSA/static/media/main1.bd28406978e2bacf245b.png",
@@ -16,11 +16,11 @@
     "static/media/bootstrap-icons.woff2?": "/LABSA/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "static/media/labsa-logo.png": "/LABSA/static/media/labsa-logo.0905f9fc021bdcd12956.png",
     "index.html": "/LABSA/index.html",
-    "main.b652ace5.css.map": "/LABSA/static/css/main.b652ace5.css.map",
+    "main.01a1221d.css.map": "/LABSA/static/css/main.01a1221d.css.map",
     "main.a1bf3ae0.js.map": "/LABSA/static/js/main.a1bf3ae0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b652ace5.css",
+    "static/css/main.01a1221d.css",
     "static/js/main.a1bf3ae0.js"
   ]
 }
