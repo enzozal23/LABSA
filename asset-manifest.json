@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/LABSA/static/css/main.b652ace5.css",
+    "main.js": "/LABSA/static/js/main.a1bf3ae0.js",
+    "static/media/nosotros1.png": "/LABSA/static/media/nosotros1.0f9177105031adea7c8a.png",
+    "static/media/main1.png": "/LABSA/static/media/main1.bd28406978e2bacf245b.png",
+    "static/media/main3.png": "/LABSA/static/media/main3.31e4dd2c05d3ab6a28e4.png",
+    "static/media/brucelosis.pdf": "/LABSA/static/media/brucelosis.5f4d9993bf3148ce07c4.pdf",
+    "static/media/planillaSangrado.pdf": "/LABSA/static/media/planillaSangrado.2e33253ccb99b21335dc.pdf",
+    "static/media/valores1.jpg": "/LABSA/static/media/valores1.8533aa2c2eb649b45981.jpg",
+    "static/media/main2.jpg": "/LABSA/static/media/main2.a190144ce5a3348d48bc.jpg",
+    "static/media/logo2.png": "/LABSA/static/media/logo2.a805cf981eb17e162c08.png",
+    "static/media/brucelosis.xls": "/LABSA/static/media/brucelosis.17348dc32a19cb1e1bf0.xls",
+    "static/media/planillaSangrado.xls": "/LABSA/static/media/planillaSangrado.725dc6c483648379d955.xls",
+    "static/media/bootstrap-icons.woff?": "/LABSA/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/LABSA/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/labsa-logo.png": "/LABSA/static/media/labsa-logo.0905f9fc021bdcd12956.png",
+    "index.html": "/LABSA/index.html",
+    "main.b652ace5.css.map": "/LABSA/static/css/main.b652ace5.css.map",
+    "main.a1bf3ae0.js.map": "/LABSA/static/js/main.a1bf3ae0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b652ace5.css",
+    "static/js/main.a1bf3ae0.js"
+  ]
+}
