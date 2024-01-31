@@ -31,7 +31,7 @@ body {
   z-index: 100;
   background-color: transparent !important;
   animation: enhance-navbar linear both !important;
-  animation-timeline: scroll(root block) !important;
+  animation-timeline: scroll(root) !important;
   animation-range: 0 20px !important;
 }
 
@@ -49,9 +49,10 @@ body {
   width: 120px;
   height: 120px;
   animation: enhance-logo linear both !important;
-  animation-timeline: scroll(root block) !important;
+  animation-timeline: scroll(root) !important;
   animation-range: 0 20px !important;
 }
+
 @keyframes enhance-logo {
   to {
     width: 125px;
@@ -76,7 +77,7 @@ body {
 
   font-size: 35px;
   animation: enhance-lyrics linear both !important;
-  animation-timeline: scroll(root block) !important;
+  animation-timeline: scroll(root) !important;
   animation-range: 0 20px !important;
 }
 .nav-items a:hover {
