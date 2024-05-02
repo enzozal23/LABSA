@@ -1,16 +1,31 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../../src/App.css"
-import logo from "../../src/img/labsa-logo.png"
+import logo2 from '../../src/img/labsa-logo2.png'
+
 function Navbar() {
 
+    const [navbar, setNavbar] = useState('')
+
+    useEffect(window.onscroll = () => {
+        if (document.documentElement.scrollTop !== 0) {
+            setNavbar('animation')
+        } else {
+            setNavbar('')
+        }
+
+    }, [])
     const [collapse, setCollapse] = useState(true)
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-css">
+
+
+
+
+            <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-css" id={navbar} >
                 <div className="container-fluid">
 
 
-                    <a className="navbar-brand nav-title" href="#main"> <img src={logo} alt="Labsa Laboratorio" className='navbar-logo' /></a>
+                    <a className="navbar-brand nav-title" href="#main"> <img src={logo2} alt="Labsa Laboratorio" className='navbar-logo' /></a>
                     <button onClick={() => setCollapse(!collapse)} className="navbar-toggler button-movile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         {collapse ? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-list bars-menu" viewBox="0 0 16 16">
                             <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
@@ -33,7 +48,7 @@ function Navbar() {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav >
 
         </>
     )

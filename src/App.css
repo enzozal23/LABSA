@@ -14,9 +14,11 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* border: solid red 1px; */
 }
 
 body {
+
   justify-content: center;
   text-align: center;
   width: auto;
@@ -24,40 +26,47 @@ body {
 }
 
 .navbar-css {
-  border-bottom: solid 0.1rem rgba(255, 255, 255, 0.364);
+  border-bottom: solid 0.1rem rgba(255, 255, 255, 0.179);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
-  background-color: transparent !important;
-  animation: enhance-navbar linear both !important;
-  animation-timeline: scroll(root) !important;
-  animation-range: 0 20px !important;
+  background-color: rgba(74, 73, 73, 0.32)!important;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+ #animation{
+ border-bottom: solid 0.1rem rgba(255, 255, 255, 0.364);
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 100;
+ background-color: whitesmoke!important;
+ transition: 1s ;
+ -webkit-transition: 1s ;
+ -moz-transition: 1s ;
+ -ms-transition: 1s ;
+ -o-transition: 1s ;
 }
 
-@keyframes enhance-navbar {
-  to {
-    backdrop-filter: blur(15px);
-    border: none;
-    height: 170px;
-  }
+#animation  .nav-items a{
+  color:var(--colorPrincipal);
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
 }
 
 .navbar-logo {
-  margin-left: 50px;
+  margin-left: 30px;
   margin-right: 550px;
   width: 120px;
   height: 120px;
-  animation: enhance-logo linear both !important;
-  animation-timeline: scroll(root) !important;
-  animation-range: 0 20px !important;
-}
 
-@keyframes enhance-logo {
-  to {
-    width: 125px;
-    height: 125px;
-  }
 }
 
 .navbar-logo:hover {
@@ -66,29 +75,32 @@ body {
 
 .nav-items li {
   margin-left: 50px;
+  
 }
 .nav-items li:hover {
   background-color: rgba(5, 5, 5, 0.061);
   border-bottom: solid 2px var(--colorNavBar);
+
 }
 
 .nav-items a {
-  color: var(--colorNavBar);
-
-  font-size: 35px;
-  animation: enhance-lyrics linear both !important;
-  animation-timeline: scroll(root) !important;
-  animation-range: 0 20px !important;
+ color: whitesmoke;
+ transition: none;
+ font-size: 35px;
+ -webkit-transition: none;
+ -moz-transition: none;
+ -ms-transition: none;
+ -o-transition: none;
 }
 .nav-items a:hover {
-  color: aliceblue;
+  color:rgb(190, 188, 188);
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
-@keyframes enhance-lyrics {
-  to {
-    color: aliceblue;
-    font-size: 41px;
-  }
-}
+
 .button-movile {
   border: 1px solid transparent;
   background-color: #006c9000;
@@ -486,16 +498,16 @@ body {
   .bars-close {
     width: 40px;
     height: 45px;
-    color: white;
+    color: rgb(7, 7, 7);
   }
   .bars-menu {
     width: 40px;
     height: 45px;
 
-    color: white;
+    color: rgb(8, 8, 8);
   }
   .nav-items li {
-    background-color: rgba(9, 9, 9, 0.424);
+    background-color: rgba(5, 5, 5, 0.424);
   }
 
   .nosotros {
